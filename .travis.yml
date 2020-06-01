@@ -9,6 +9,7 @@ compiler:
 language: c
 
 script:
+  - gcc -v
   - mkdir build
   - cd build
   - cmake ..
